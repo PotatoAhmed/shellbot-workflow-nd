@@ -54,7 +54,7 @@ jobs:
              mv rclone/rclone.conf /home/runner/.config/rclone
              rm -rf rclone
              mkdir /home/runner/drive
-             rclone mount --daemon gdrive:/ /home/runner/drive
+             rclone mount --daemon drive:/ /home/runner/drive
 
      - name: Install ErfanGSIs Requirements
        run: |
